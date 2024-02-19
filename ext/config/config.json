@@ -1,0 +1,48 @@
+{
+    "database":{
+        "database_list":[
+            {
+                "name":"SQLite Local",
+                "type":"sqlite",
+                "connection_string":"D:\\program\\tool\\sqlite\\account.sqlite",
+                "driver_path":[]
+            },
+            {
+                "name":"SQLite Common",
+                "type":"sqlite",
+                "connection_string":"ext/account.sqlite",
+                "driver_path":[]
+            }
+        ],
+        "default":0
+    },
+    "log":{
+        "folder_path":["ext"],
+        "level":"DEBUG"
+    },
+    "cache":{
+        "connection":{
+            "host":"10.53.200.183",
+            "port":35259
+        },
+        "type":"AUTO",
+        "expiry_hours":360
+    },
+    "system":{
+        "static_data_path":["static_data"]
+    },
+    "grpc":{
+        "valclient":{
+            "server":"localhost",
+            "port": 23336
+        },
+        "clientapival":{
+            "server":"localhost",
+            "port": 23336
+        },
+        "hybrid":{
+            "server":"localhost",
+            "port": 23336
+        }
+    }
+}
